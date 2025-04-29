@@ -1,0 +1,32 @@
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#title {
+  text-align: center;
+  font-size: 24px;
+}
+
+#description {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#heatmap {
+  display: block;
+  margin: 0 auto;
+}
+
+#legend {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#tooltip {
+  position: absolute;
+  pointer-events: none;
+  z-index: 10;
+}
